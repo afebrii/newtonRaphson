@@ -13,7 +13,7 @@
     <script src="https://unpkg.com/mathjs@10.0.1/lib/browser/math.js"></script>
     <script src="https://cdn.plot.ly/plotly-1.35.2.min.js"></script>
 
-    <link rel="stylesheet" href="../styles/styles.css" media="screen">
+    <link rel="stylesheet" href="styles/styles.css" media="screen">
 
 </head>
 
@@ -28,7 +28,7 @@
                         Menemukan Akar dengan Newton Raphson
                     </div>
                     <div class="card-body">
-                        <form action="newton.php" method="post" id="form">
+                        <form action="index.php" method="post" id="form">
                             <br /> Persamaan yang dimasukkan harus berupa polinomial maksimum derajat 3, jadi hanya persamaan bentuk yang diterima a*x^3+b*x^2+c*x+d <br /><br />
 
                             Persamaan: <input required class="form-control" type="text" name="ecuacion" id="eq">
