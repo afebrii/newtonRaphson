@@ -1,0 +1,71 @@
+.card-header{
+    background-color: #61D2CD;
+    color: black;
+    text-shadow: #ffff;
+}
+.card-body{
+    color: black;
+}
+.card{
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+    display: flex;
+    overflow: hidden;
+}
+
+.btn{
+    background-color: #61D2CD;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+    font-size: 1.2rem;
+    color: var(--white-text);
+    text-shadow: #474747;
+    align-items: center;
+}
+
+#barraNav{
+    background-color: #61D2CD;
+    font-weight: bold;
+
+}
+
+#beginPartners{
+    font-size: 200%;
+}
+
+#partners{
+    font-size: 150%;
+}
+
+#logoEpn{
+    width: 50%;
+    height: 50%;
+}
+
+#logoFis{
+    width: 50%;
+    height: 50%;
+}
+
+.mx-auto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#resumen {
+    font-size: 150%;
+}
+
+#github{
+    width: 15%;
+    height: 15%;
+}
+
+.plot {
+    width: 100%;
+    height: 100%;
+}
+
+#recomen {
+    font-size: 130%;
+}
